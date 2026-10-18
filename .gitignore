@@ -1,0 +1,28 @@
+# Bytecode & Caches (байткод Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (виртуальные окружения)
+.venv/
+venv/
+env/
+ENV/
+
+# Output artifacts (сгенерированные инциденты не должны засорять git)
+alerts.json
+
+# IDEs & Editors (файлы редакторов)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files (мусорные файлы ОС)
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage (на будущее для pytest)
+.pytest_cache/
+.coverage
+htmlcov/
